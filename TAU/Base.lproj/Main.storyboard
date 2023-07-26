@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,13 +25,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wvd-B2-mZv" userLabel="city Value">
-                                <rect key="frame" x="189" y="422.5" width="36" height="51.5"/>
+                                <rect key="frame" x="192.5" y="425" width="29" height="46"/>
                                 <accessibility key="accessibilityConfiguration" identifier="city"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9p-mP-Amt" userLabel="enroll">
-                                <rect key="frame" x="25" y="542" width="369" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9p-mP-Amt" userLabel="enroll">
+                                <rect key="frame" x="25" y="539" width="369" height="41"/>
                                 <color key="backgroundColor" red="1" green="0.4687319969347471" blue="0.26311417288637096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration" identifier="enrollButton"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -43,19 +45,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYa-Pl-TPc" userLabel="thanks Message">
-                                <rect key="frame" x="25" y="651" width="369" height="27.5"/>
+                                <rect key="frame" x="25" y="648" width="369" height="27.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TAU" translatesAutoresizingMaskIntoConstraints="NO" id="jGA-iB-3kK">
-                                <rect key="frame" x="164" y="710" width="90" height="90"/>
+                                <rect key="frame" x="141.5" y="687.5" width="135" height="135"/>
                                 <accessibility key="accessibilityConfiguration" identifier="TAUlogo">
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to XCUITest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49w-Xj-u7T" userLabel="welcome ToXCUI Test">
-                                <rect key="frame" x="107" y="224.5" width="207" height="26.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to XCUITest Course " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49w-Xj-u7T" userLabel="welcome ToXCUI Test">
+                                <rect key="frame" x="68" y="224.5" width="285" height="26.5"/>
                                 <color key="backgroundColor" red="0.27145191120000001" green="1" blue="0.12615127810000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration" identifier="welcomeMessage"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -63,7 +65,6 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="hYa-Pl-TPc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="7JR-9B-J4q"/>
@@ -81,6 +82,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hYa-Pl-TPc" secondAttribute="trailing" constant="20" id="xVp-gv-00V"/>
                             <constraint firstItem="hYa-Pl-TPc" firstAttribute="top" secondItem="H9p-mP-Amt" secondAttribute="bottom" constant="68" id="zHH-6z-DPC"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="CityValue" destination="wvd-B2-mZv" id="npE-32-aJ4"/>
@@ -95,6 +97,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="TAU" width="90" height="90"/>
+        <image name="TAU" width="135" height="135"/>
     </resources>
 </document>
