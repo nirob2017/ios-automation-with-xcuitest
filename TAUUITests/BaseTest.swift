@@ -8,7 +8,7 @@
 import Foundation
 import XCTest
 
-class TAUUITestBase: XCTestCase {
+class UITestBase: XCTestCase {
     
     var app = XCUIApplication()
     

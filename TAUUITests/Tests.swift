@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class TAUUITests: TAUUITestBase {
+final class UITests: UITestBase {
 
     func testAllElementsInMainScreen() {
         app.staticTexts["welcomeMessage"].tap()
