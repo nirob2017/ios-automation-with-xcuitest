@@ -3,6 +3,10 @@ osx_image: xcode13
 
 language: swift
 
+branches:
+  only:
+    - main
+
 # Run XCUITests on every pull request
 if: type = pull_request
 
