@@ -1,0 +1,64 @@
+{
+  "configurations" : [
+    {
+      "id" : "C2113AD5-E066-4456-B9A6-037D56B84441",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TAU.xcodeproj",
+      "identifier" : "9B5BC709220F55C20047CFA4",
+      "name" : "TAU"
+    }
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "target" : {
+        "containerPath" : "container:TAU.xcodeproj",
+        "identifier" : "9B5BC71D220F55D20047CFA4",
+        "name" : "TAUTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TAU.xcodeproj",
+        "identifier" : "9383B7D32A70E5B2004D1C0A",
+        "name" : "TAUUITestBase"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:TAU.xcodeproj",
+        "identifier" : "9383B7E52A70E653004D1C0A",
+        "name" : "TAUUITests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TAU.xcodeproj",
+        "identifier" : "93B571AC2A711DBF00A6979C",
+        "name" : "Base"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TAU.xcodeproj",
+        "identifier" : "93B571BB2A711E2A00A6979C",
+        "name" : "Steps"
+      }
+    }
+  ],
+  "version" : 1
+}

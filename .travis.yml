@@ -1,0 +1,20 @@
+os: osx
+osx_image: xcode12.5
+
+language: swift
+
+branches:
+  only:
+    - main
+
+# Run XCUITests on every pull request
+if: type = pull_request
+
+before_install:
+  - gem install fastlane --no-document
+
+install: true
+
+script:
+  - xcrun simctl list devices
+  - fastlane scan --scheme TAU --device "iPhone 12 Pro Max"

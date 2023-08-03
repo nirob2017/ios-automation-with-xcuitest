@@ -11,7 +11,7 @@ import XCTest
 
 class BDDTest: UITestBase {
     
- func testThankYouMessageInBDStyle() {
+ func testThankYouMessageInBDD() {
         givenAppIsReady()
         whenIEnter(city: "London")
         whenIEnrolled()
