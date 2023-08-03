@@ -4,7 +4,7 @@ branches:
   only:
     - organising-tests
 before_install:
-  - gem install fastlane --no-ri --no-rdoc --no-document
+  - gem install fastlane --no-ri --no-document --no-document
 install: true
 script:
   - fastlane scan --scheme TAU --device "iPhone 14 Pro Max"
