@@ -61,6 +61,7 @@
 /* Begin PBXFileReference section */
 		935C1FD12A71208E00FABF85 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		935C1FD32A71215D00FABF85 /* Steps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steps.swift; sourceTree = "<group>"; };
+		935C1FD52A714B8900FABF85 /* TAU.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TAU.xctestplan; sourceTree = "<group>"; };
 		9383B7D42A70E5B2004D1C0A /* TAUUITestBase.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAUUITestBase.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9383B7E62A70E653004D1C0A /* TAUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9383B7E82A70E653004D1C0A /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
@@ -173,6 +174,7 @@
 		9B5BC701220F55C20047CFA4 = {
 			isa = PBXGroup;
 			children = (
+				935C1FD52A714B8900FABF85 /* TAU.xctestplan */,
 				9B5BC70C220F55C20047CFA4 /* TAU */,
 				9B5BC721220F55D20047CFA4 /* TAUTests */,
 				9383B7E72A70E653004D1C0A /* TAUUITests */,
@@ -858,14 +860,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E8YSTT4EW3;
+				DEVELOPMENT_TEAM = JBH2KN39ZY;
 				INFOPLIST_FILE = TAUTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shashikant.TAUTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirob.TAUTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
