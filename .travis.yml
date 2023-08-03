@@ -1,10 +1,16 @@
+os: osx
+osx_image: xcode12.5
+
 language: swift
-osx_image: xcode14.2
+
 branches:
   only:
     - organising-tests
+
 before_install:
   - gem install fastlane --no-document
+
 install: true
+
 script:
   - fastlane scan --scheme TAU --device "iPhone 14 Pro Max"
