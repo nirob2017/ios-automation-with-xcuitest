@@ -14,4 +14,4 @@ install: true
 
 script:
   - xcrun simctl list devices
-  - fastlane scan --scheme TAU --device "iPhone 14 Pro Max"
+  - fastlane scan --scheme TAU --device "iPhone 12 Pro Max"
