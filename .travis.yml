@@ -1,5 +1,5 @@
 os: osx
-osx_image: xcode13
+osx_image: xcode12.5
 
 language: swift
 
@@ -17,4 +17,4 @@ install: true
 
 script:
   - xcrun simctl list devices
-  - fastlane scan --scheme TAU --device "iPhone 14 Pro Max"
+  - fastlane scan --scheme TAU --device "iPhone 12 Pro Max"
